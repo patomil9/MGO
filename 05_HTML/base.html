@@ -11,9 +11,9 @@
     <form action="http://fe.it-academy.by/TestForm.php" method="POST">
     <fieldset>
         <legend>Личные данные</legend>        
-            <input type="text" name="фамилия" size="25" placeholder="фамилия" required><br>
-            <input type="text" name="имя" size="20" placeholder="имя" required><br>
-            <input type="text" name="отчество" size="24" placeholder="отчество" required><br>
+            <input type="text" name="фамилия" size="25" placeholder="фамилия" required>
+            <input type="text" name="имя" size="20" placeholder="имя" required>
+            <input type="text" name="отчество" size="24" placeholder="отчество" required>
             <fieldset>
                 <legend>Паспортные данные</legend>
                 <input type="text" name="серия" maxlength="2" placeholder="заглавные латинские буквы" required  >
@@ -21,7 +21,7 @@
             </fieldset>
             <fieldset>
                 <legend>Дата рождения</legend>
-                <input type="text" name="год рождения" placeholder="год, 4 цифры"><br>
+                <input type="text" name="год рождения" placeholder="год, 4 цифры">
                 <select name="месяц" >
             <option value="0">Месяц</option>
             <option value="1">Январь</option>
@@ -36,14 +36,14 @@
             <option value="10">Октябрь</option>
             <option value="11">Ноябрь</option>
             <option value="12">Декабрь</option>
-                </select><br>
+                </select>
             <input type="text" name="число" placeholder="число">
             </fieldset>
     <select name="Национальность" id="list" required>
         <option value="0">Национальность</option>
         <option value="1">белорус</option>
         <option value="2">русский</option>                
-    </select><br>
+    </select>
     <span>Адрес</span><br>
     <textarea name="адрес">
     </textarea> 
@@ -52,45 +52,45 @@
         <legend>Интересы</legend>
         <fieldset>
             <legend>Хобби</legend>
-            <input type="checkbox" name="hobby[]">рыбалка<br>
-            <input type="checkbox" name="hobby[]">астрономия<br>
-            <input type="checkbox" name="hobby[]">дайвинг<br>
-            <input type="checkbox" name="hobby[]">марки<br>
+            <input type="checkbox" name="hobby[]">рыбалка
+            <input type="checkbox" name="hobby[]">астрономия
+            <input type="checkbox" name="hobby[]">дайвинг
+            <input type="checkbox" name="hobby[]">марки
         </fieldset>
         <fieldset>
             <legend>Домашние животные</legend>
             <select name="animals">
                 <optgroup label="Попугаи">
-                    <option value="1">Волнистый</option><br>
-                    <option value="2">Ара</option><br>
-                    <option value="3">Неразлучник</option><br>
+                    <option value="1">Волнистый</option>
+                    <option value="2">Ара</option>
+                    <option value="3">Неразлучник</option>
                 </optgroup>
                 <optgroup label="Рыба">
-                    <option value="4">Караси</option><br>
-                    <option value="5">Окуни</option><br>
-                    <option value="6">Осетр</option><br>
+                    <option value="4">Караси</option>
+                    <option value="5">Окуни</option>
+                    <option value="6">Осетр</option>
                 </optgroup>
                 <optgroup label="Птицы">
-                    <option value="7">Стая ворон</option><br>
-                    <option value="8">Аист</option><br>
-                    <option value="9">Архиоптерикс</option><br>
+                    <option value="7">Стая ворон</option>
+                    <option value="8">Аист</option>
+                    <option value="9">Архиоптерикс</option>
                 </optgroup>
             </select>
         </fieldset>
     </fieldset>
     <fieldset>
         <legend>Данные для входа и восстановления пароля</legend>
-        <input type="text"  name="login" size="20" placeholder="логин"><br>
+        <input type="text"  name="login" size="20" placeholder="логин">
         <input type="password" name="password" size=20 placeholder="пароль">
     </fieldset>
     <fieldset>
         <legend>Координаты</legend>
-        <input type="email"  name="email" size="20" placeholder="email"><br>
+        <input type="email"  name="email" size="20" placeholder="email">
         <input type="url" name="url" size=20 placeholder="url">
     </fieldset>
     <fieldset>
         <legend>Цифры</legend>
-        <input type="text"  name="number" pattern="[-2,5]"><br>
+        <input type="text"  name="number" pattern="[-2,5]">
         <input type="range" min="1" max="10">
     </fieldset>
     <fieldset>
