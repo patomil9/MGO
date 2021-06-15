@@ -2,7 +2,7 @@
     background-color: blueviolet;
 }
 .container{
-    width: 100%;
+    
     background-color: crimson;
 }
 .left_block{
@@ -10,6 +10,7 @@
     width: 15em;
     float: left;
     background-color:lavender;
+    height: 100%;
     
 
 }
@@ -17,8 +18,8 @@
     width: 1200px;
     background-color: grey;
     margin-bottom: 0.2em;
-    float: left;
     padding-left: 1em;
+    margin-left: 15em;
 }
 img {
     float: right;
